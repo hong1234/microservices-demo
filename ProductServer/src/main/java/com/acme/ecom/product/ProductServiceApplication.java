@@ -6,9 +6,9 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @EnableJpaRepositories("com.hong.msv.repository")
-public class EcomProductMicroserviceApplication {
+public class ProductServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EcomProductMicroserviceApplication.class, args);
+		SpringApplication.run(ProductServiceApplication.class, args);
 	}
 }
